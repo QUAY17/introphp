@@ -24,4 +24,17 @@ $book = "Doris Lessing's nobel prize winning book on Communism in Eastern Europe
 //joining strings "concatenation" .
 
 $fullName = $firstName . ' ' . $lastName;
-echo $fullName
+//echo $fullName;
+$fullName = "$firstName $lastName";
+
+//echo $fullName;
+$title = "(oops forgot)";
+$author = "Doris Lessing";
+$answer = 30;
+$newLines = "\r\n\r\n";
+
+$message = "Name: $fullName $newLines";
+$message .= "Book: $book $newLines";
+$message .= "Answer: $answer";
+echo $message;
+
