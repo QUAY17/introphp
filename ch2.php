@@ -17,5 +17,5 @@ $lastName = "Minnich"; #this stores my last name
 //echo ' ';
 //echo $lastName;
 
-$book = "Doris Lessing's nobel prize winning book on Communism in the Eastern Europe";
-echo $book;
+$book = "Doris Lessing's nobel prize winning book on Communism in Eastern Europe";
+echo "$book is my favorite book";
