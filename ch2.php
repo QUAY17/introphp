@@ -18,4 +18,10 @@ $lastName = "Minnich"; #this stores my last name
 //echo $lastName;
 
 $book = "Doris Lessing's nobel prize winning book on Communism in Eastern Europe";
-echo "$book is my favorite book";
+//echo "$book is my favorite book";
+
+
+//joining strings "concatenation" .
+
+$fullName = $firstName . ' ' . $lastName;
+echo $fullName
